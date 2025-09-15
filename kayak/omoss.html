@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master of kayaking :: forsiden</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: rgb(255, 255, 255);
+        
+
+        }
+        #toppfelt{
+            background-color: #23608A;
+            height: 150px;
+            width: 100vw; /* vw betyr viewport width = bredden på skjermen */
+            font-family: "century gothic";
+            font-size: 70px;
+            color: #ffffff;
+            font-weight: bolder;
+            display: flex;
+                align-items: center;
+                flex-direction: row;
+        
+        }
+        #toppfelt a{
+            color: #ffffff;
+            font-size: 70px;
+            text-decoration: none;
+        }
+        #toppfelt a:hover{
+            text-shadow: 0px 0px 2px rgb(255, 255, 255);
+            text-decoration: underline;
+        }
+        #undertf{
+            height: 75px;
+            width: 100vw;
+            background-color: #032D5A;
+            display: flex;
+                align-items: center;
+                flex-direction: row;
+                justify-content: space-evenly;
+        }
+        #undertf a{
+            color: azure;
+            font-size: 35px;
+            font-weight: bold;
+            font-family: "century gothic";
+            text-decoration: none;
+        }
+        #undertf a:hover{
+            text-decoration: underline;
+            text-shadow: 0px 0px 10px rgb(118, 191, 255);
+        }
+        #toppvenstre{
+            height: 150px;
+            width: 150px;
+            display: flex;
+                align-items: center;
+                justify-content: center;
+
+        
+        }
+        #toppmidten{
+            height: 150px;
+            width: calc(100vw - 300px);
+            display: flex;
+                align-items: center;
+                justify-content: center;
+        }
+        #topphoyre{
+            height: 150px;
+            width: 150px;
+            display: flex;
+                align-items: center;
+                flex-direction: center;
+        }
+        #space1{
+            height: 10px;
+            width: 100vw;
+        }
+        #hovedfelt{
+            width: 100vw;
+            min-height: 400px;
+            background-color:rgb(255, 255, 255);
+            display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 20px;
+                justify-content: space-evenly;
+            font-family: "century gothic";
+        }
+        #hovedfeltv{
+            height: 290px;
+            width: 290px;
+            font-family: "century gothic";
+            display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px black;
+            padding: 30px;
+            font-size: larger;
+        }
+        #hovedfeltv p{
+            text-decoration: underline;
+        }
+        #hovedfelth{
+            height: 350px;
+            width: 600px;
+            font-family: "century gothic";
+            display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px black;
+            background-color: #23608A;
+        }
+        #hovedfelth img{
+            border-radius: 10px;
+        }
+        #space2{
+            height: 10px;
+            width: 100vw;
+        }
+        #hovedfelt2{
+            width: 100vw;
+            height: 350px;
+            background-color: darkgray;
+            display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+        }
+        .bokser{
+            height: 280px;
+            width: 250px;
+            background-color: azure;
+            display: flex;
+                align-items: center;
+                justify-content: center;
+            box-shadow: 0px 0px 20px black;
+            border-radius: 20px;
+            font-family: "century gothic";
+        }
+        .bokser img{
+            border-radius: 10px;
+        }
+        #venstre{
+            display: flex;
+                flex-direction: column-reverse;
+        }
+        #midten{
+            display: flex;
+                flex-direction: column-reverse;
+        }
+        #hoyre{
+            display: flex;
+                flex-direction: column-reverse;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="toppfelt">
+        <div id="toppvenstre"><img src="images/logo.png" alt="logo"></div>
+        <div id="toppmidten"><a href="index.html">KAYAK.com</a></div>
+        <div id="topphoyre">&#9776;</div>
+    
+    </div>
+     <div id="undertf">
+        <a href="omoss.html">Om oss</a>
+        <a href="produkter.html">Produkter</a>
+        <a href="kontakt.html">Kontakt</a>
+
+    </div>
+    <div id="space1"></div>
+    <div id="hovedfelt">
+        <div id="hovedfeltv">
+            <h1>OM OSS</h1>
+            <p>Vi er de fremste leverandøren av 6 utvalge nelo kajakker. Pluss sete, sparkebrett og nelo skruer. Vi er kort sagt jazzen av kajakk salg.</p>
+        </div>
+        <div id="hovedfelth">
+            <h1>Daglig leder</h1>
+            <img src="images/sebben.jpg" alt="">
+        </div>
+    
+    </div>
+    <div id="space2"></div>
+    <div id="hovedfelt2">
+        <div class="bokser" id="midten"><a href="produkter.html"><img src="images/knapp2.jpg"></a>
+        <h1>PRODUKTER</h1></div>
+        <div class="bokser" id="hoyre"><a href="kontakt.html"><img src="images/knapp3.jpg"></a>
+        <h1>KONTAKT OSS</h1></div>
+    </div>
+</body>
+</html>

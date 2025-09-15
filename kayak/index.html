@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master of kayaking :: forsiden</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: rgb(255, 255, 255);
+        
+
+        }
+        #toppfelt{
+            background-color: #23608A;
+            height: 150px;
+            width: 100vw; /* vw betyr viewport width = bredden på skjermen */
+            font-family: "century gothic";
+            font-size: 70px;
+            color: #ffffff;
+            font-weight: bolder;
+            display: flex;
+                align-items: center;
+                flex-direction: row;
+        
+        }
+        #toppfelt a{
+            color: #ffffff;
+            font-size: 70px;
+            text-decoration: none;
+        }
+        #toppfelt a:hover{
+            text-shadow: 0px 0px 2px rgb(255, 255, 255);
+            text-decoration: underline;
+        }
+        #undertf{
+            height: 75px;
+            width: 100vw;
+            background-color: #032D5A;
+            display: flex;
+                align-items: center;
+                flex-direction: row;
+                justify-content: space-evenly;
+        }
+        #undertf a{
+            color: azure;
+            font-size: 35px;
+            font-weight: bold;
+            font-family: "century gothic";
+            text-decoration: none;
+        }
+        #undertf a:hover{
+            text-decoration: underline;
+            text-shadow: 0px 0px 10px rgb(118, 191, 255);
+        }
+        #toppvenstre{
+            height: 150px;
+            width: 150px;
+            display: flex;
+                align-items: center;
+                justify-content: center;
+
+        
+        }
+        #toppmidten{
+            height: 150px;
+            width: calc(100vw - 300px);
+            display: flex;
+                align-items: center;
+                justify-content: center;
+        }
+        #topphoyre{
+            height: 150px;
+            width: 150px;
+            display: flex;
+                align-items: center;
+                flex-direction: center;
+        }
+        #space1{
+            height: 10px;
+            width: 100vw;
+        }
+        #hovedfelt{
+            width: 80vw;
+            min-height: 850px;
+            background-color:rgb(22, 51, 69);
+            display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                padding: 20px;
+            box-shadow: 0px 0px 10px black;
+            border-radius:80px;
+            font-family: "century gothic";
+            color: #ffffff;
+
+
+        }
+        #hovedfeltv{
+            width: 550px;
+            height: 50px;
+            display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+            box-shadow: 0px 0px 10px black;
+            border-radius: 300px;
+            font-family: "century gothic";
+            font-size: 40px;
+            background-color:#032D5A;
+        }
+        #hovedfelth{
+            width: 85%;
+            height: 600px;
+            box-shadow: 0px 0px 5px black;
+            border-radius: 5px;
+            font-family: "century gothic";
+            display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                padding: 20px;
+            background-color: #032D5A;
+            font-size: 25px;
+        }
+        #hovedfelth img{
+            border-radius: 10px;
+        }
+        #space2{
+            height: 10px;
+            width: 100vw;
+        }
+        #hovedfelt2{
+            width: 100vw;
+            height: 350px;
+            background-color: darkgray;
+            display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+        }
+        .bokser{
+            height: 280px;
+            width: 250px;
+            background-color: azure;
+            display: flex;
+                align-items: center;
+                justify-content: center;
+            box-shadow: 0px 0px 20px black;
+            border-radius: 20px;
+            font-family: "century gothic";
+        }
+        .bokser img{
+            border-radius: 10px;
+        }
+        #venstre{
+            display: flex;
+                flex-direction: column-reverse;
+        }
+        #midten{
+            display: flex;
+                flex-direction: column-reverse;
+        }
+        #hoyre{
+            display: flex;
+                flex-direction: column-reverse;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="toppfelt">
+        <div id="toppvenstre"><img src="images/logo.png" alt="logo"></div>
+        <div id="toppmidten"><a href="index.html">KAYAK.com</a></div>
+        <div id="topphoyre">&#9776;</div>
+    
+    </div>
+    <div id="undertf">
+        <a href="omoss.html">Om oss</a>
+        <a href="produkter.html">Produkter</a>
+        <a href="kontakt.html">Kontakt</a>
+
+    </div>
+    <div id="space1"></div>
+    <div id="hovedfelt">
+        <div id="hovedfeltv">
+            <h1>Velkommen!</h1>
+        </div>
+        <div id="hovedfelth">
+            <h1>TIL MASTERS OF KAYAKING</h1>
+            <img src="images/k4sprint.jpg" alt="">
+        </div>
+    </div>
+    <div id="space2"></div>
+    <div id="hovedfelt2">
+        <div class="bokser" id="venstre">
+        <a href="omoss.html"><img src="images/knapp1.jpg"></a>
+        <h1>OM OSS</h1>
+        </div>
+        <div class="bokser" id="midten">
+        <a href="produkter.html"><img src="images/knapp2.jpg"></a>
+        <h1>PRODUKTER</h1>
+        </div>
+        <div class="bokser" id="hoyre">
+        <a href="kontakt.html"><img src="images/knapp3.jpg"></a>
+        <h1>KONTAKT OSS</h1>
+        </div>
+    </div>
+</body>
+</html>
